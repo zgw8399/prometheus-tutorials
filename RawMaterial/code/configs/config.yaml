@@ -1,0 +1,26 @@
+# MongoDB配置
+mongo:
+  host: '10.9.36.85'
+  port: 27017
+  username: 'admin'
+  password: 'password'
+  authSource: 'admin'
+  authMechanism: 'SCRAM-SHA-256'
+  maxPoolSize: 1024
+
+# 数据库配置
+db:
+  mes_db_name: 'MES'
+
+# 集合配置
+coll:
+  # 料号维护
+  rawmaterial_coll_name: 'RawMaterial'
+  # 供应商维护
+  supplier_coll_name: 'Supplier'
+  # 配方绑定
+  recipebind_coll_name: 'RecipeBind'
+  # 变量绑定
+  variablebind_coll_name: 'VariableBind'
+  # 车载入库
+  vehiclestorage_coll_name: 'VehicleStorage'

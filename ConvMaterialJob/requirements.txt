@@ -1,0 +1,5 @@
+tornado==6.1
+pymongo==3.11.3
+PyYAML==5.4.1
+PyMySQL==1.0.2
+APscheduler==3.7.0
