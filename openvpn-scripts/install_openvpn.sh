@@ -41,7 +41,7 @@ if [ ! -e $EASYRSA_DIR/vars ];then
 set_var EASYRSA_REQ_PROVINCE  \"Guangdong\"
 set_var EASYRSA_REQ_CITY      \"Shenzhen\"
 set_var EASYRSA_REQ_ORG       \"Varden\"
-set_var EASYRSA_REQ_EMAIL     \"varden@qq.com\"
+set_var EASYRSA_REQ_EMAIL     \"4077897@qq.com\"
 set_var EASYRSA_REQ_OU        \"Varden\"
 ">>$EASYRSA_DIR/vars
 	echo "变量文件已生成！"
